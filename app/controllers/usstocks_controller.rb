@@ -19,6 +19,11 @@ class UsstocksController < ApplicationController
                       :formpri => c["data"]["formpri"], :limit => c["data"]["limit"],
                       :uppic => c["data"]["uppic"], :priearn => c["data"]["priearn"],
                       :beta => c["data"]["beta"], :chtime => c["data"]["chtime"])
+
+
+
+
+
     end
     redirect_to usstock_path(@usstock)
   end
